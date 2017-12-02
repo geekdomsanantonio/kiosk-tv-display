@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Kiosk TV Display</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<!-- change delayms (milliseconds) to whatever you want -->
+	<!-- change height and width to whatever you want -->
+	<!-- click publish to web on presentation, click embed, copy the src attribute of that iframe out, and use as the src in the iframe below  -->
+
+	<div class="container">
+		<iframe id="slide" src="https://docs.google.com/presentation/d/e/2PACX-1vQ5xXgql-VV7qCFyhMPnK1SmineLbdt13FlFFPFGNdv-csY3kJRY4uqD35fQlx-ddiiyBKYPc-isR_2/embed?start=true&loop=true&delayms=8000" frameborder="0" width="1920" height="1080" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</div>
+
+	<div class="shade"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
