@@ -1,21 +1,23 @@
-html, body {
+html,
+body {
 	background: black;
 	padding: 0;
 	margin: 0;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 
 .container {
-height: 100%;
-width: 100%;
-overflow: hidden;
+	height: calc(100% + 35px) !important;
+	width: 100%;
 }
 
 .container iframe {
-height: 100% !important);;
-width: 100% !important;
+	height: calc(100% + 35px) !important;
+	width: 100% !important;
 }
+
 .shade {
 	position: absolute;
 	bottom: 0;
