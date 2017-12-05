@@ -1,7 +1,7 @@
 // change number of mins to whatever you want
 
 // currently set at 1 min (60 seconds)
-var minsBeforePageRefresh = 1;
+var minsBeforePageRefresh = 30;
  
 $(document).ready(function() {
 	setInterval(function() {
